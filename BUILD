@@ -27,3 +27,8 @@ constraint_value(
     name = "incompatible",
     constraint_setting = ":incompatible_setting",
 )
+
+exports_files(
+    ["constraint_helpers.bzl"],
+    visibility = ["//visibility:public"],
+)
